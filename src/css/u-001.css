@@ -55,3 +55,12 @@ button{
 }
 
 
+@font-face {
+    font-family: "Avenir-Heavy";
+    src: url(../storage/font/Avenir/Avenir-Heavy.ttf);
+}
+
+@font-face {
+    font-family: "Avenir-Roman";
+    src: url(../storage/font/Avenir/Avenir-Roman.ttf);
+}
