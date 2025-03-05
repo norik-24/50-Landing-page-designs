@@ -18,12 +18,14 @@ h1{
     font-size: 64px;
     color:Var(--color-39);
     width: 568px;
+    font-family: "Poppins-Bold";
 }
 
 p{
     width:480px;
     margin-top:30px;
     font-size:24px ;
+    font-family: "Poppins-Light";
 }
 
 button{
@@ -34,7 +36,7 @@ button{
     width: 265px ;
     height: 78px;
     font-size: 20px ;
-
+    font-family: "Poppins-Regular";
 
 
 }
@@ -74,4 +76,16 @@ button{
     width:110px;
     height:120px;
     margin-left:17%;
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/font/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(../storage/font/Poppins/Poppins-Bold.ttf);
+     }
+@font-face {
+    font-family: "Poppins-Light";
+    src: url(../storage/font/Poppins/Poppins-Light.ttf);
 }
