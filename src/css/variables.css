@@ -180,3 +180,12 @@
     --color-177: #12141B;
     --color-178: #0C0C0C;
 }
+
+@font-face{
+    font-family:"Avenir-Heavy" ;
+    src: url(../storage/font/Avenir/Avenir-Heavy.ttf);
+}
+@font-face{
+    font-family:"Avenir-Roman" ;
+    src: url(../storage/font/Avenir/Avenir-Roman.ttf);
+}
