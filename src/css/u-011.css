@@ -8,8 +8,8 @@
 
 h1{
     font-size:72px;
-    width:530px;
-
+    width:580px;
+    font-family: "Avenir-Heavy";
 
 }
 
@@ -18,10 +18,10 @@ p{
     color:Var(--color-2);
     opacity: 0.8;
     margin-top:30px;
-    width:500px !important ;
     height:auto;
     position:relative;
     word-wrap: break-word;
+    font-family: "Avenir-Roman";
 }
 
 .button1{
@@ -34,6 +34,7 @@ p{
     border:none;
     margin-top:20px;
     font-size:24px;
+    font-family: "Poppins-Regular";
 }
 
 .first{
@@ -99,17 +100,38 @@ p{
 }
 
 .card img {
-    width: 50px; /* Ajusta el tamaño de la nubecita */
+    width: 50px; 
     margin-bottom: 10px;
 }
 
 .card h1 {
     font-size: 24px;
+    font-family: "Avenir-Heavy";
 }
 
 .card p {
     font-size: 18px;
     opacity: 0.8;
     color:var(--color-4);
+    font-family: "Avenir-Book";
+}
 
+@font-face {
+    font-family: "Avenir-Heavy";
+    src: url(../storage/font/Avenir/Avenir-Heavy.ttf);
+}
+
+@font-face {
+    font-family: "Avenir-Roman";
+    src: url(../storage/font/Avenir/Avenir-Roman.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/font/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face{
+    font-family: "Avenir-Book";
+    src: url(../storage/font/Avenir/Avenir-Book.ttf);
 }
