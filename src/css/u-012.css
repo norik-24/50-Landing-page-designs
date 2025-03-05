@@ -11,18 +11,18 @@ main{
 }
 .first{
     
-    padding-top: 50px;
-    margin-top:20px;
+    padding-top: 30px;
+    margin-top:10px;
     z-index: 0;
 }
 
 h1{
     font-size: 72px;
     width:420px ;
-    height: 264px;
+    height: 20%;
     margin-left:100px;
-    margin-top:60px;
-
+    margin-top:40px;
+    font-family: "Avenir-Heavy";
 }
 .p1{
     width:470px;
@@ -32,7 +32,7 @@ h1{
     opacity:0.8;
     color:var(--color-2);
     margin-left: 100px;
-
+    font-family: "Avenir-Roman";
 
 }
 .button1{
@@ -45,8 +45,8 @@ h1{
     color:var(--color-4);
     border-radius: 36px;
     margin-left: 100px;
-    margin-top: 15px;
-
+    margin-top: 20px;
+    font-family: "Poppins-Regular";
 
 }
 
@@ -95,6 +95,21 @@ h1{
     width: 480px;
     height: 90px;
     font-size:22px;
+    font-family: "Avenir-Roman";
 
+}
 
+@font-face {
+    font-family: "Avenir-Heavy";
+    src: url(../storage/font/Avenir/Avenir-Heavy.ttf);
+}
+
+@font-face {
+    font-family: "Avenir-Roman";
+    src: url(../storage/font/Avenir/Avenir-Roman.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/font/Poppins/Poppins-Regular.ttf);
 }
