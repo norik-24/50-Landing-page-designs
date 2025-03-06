@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Avenir-roman";
+    font-size: 16px;
+    color: var(--color--2);
+}
+
+.portada {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.portada-texto {
+    margin-top: -20px;  
+    padding: 100px 200px 20px 10px;
+
+}
+
+.portada-texto h1 {
+    font-family: "Avenir-heavy";
+    color: var(--color-2);
+    font-size: 50px;
+    text-align: left;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    width: 180%; /* Aumenta el ancho del texto dentro de la caja */
+}
+
+.portada-texto p {
+    font-family: "Avenir-roman";
+    color: var(--color--2);
+    font-size: 26px;
+    margin-bottom: 40px;
+    margin-right: -30vh;
+    
+}
+
+
+.portada-texto a {
+    background-color: var(--color-2);
+    font-family: "Avenir-roman";
+    color: var(--color-4);
+    font-size: 18px;
+    padding: 16px 32px;
+    text-decoration: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;    
+}
+
+.portada-imagenes {
+    display: flex;
+    margin-top: 10px;
+    gap: 36px;
+}
+
+.img-1,
+.img-2 {
+    width: 400px;
+    
+}
+
+.img-1 {
+    margin-bottom: 152px;
+}
+
+.img-2 {
+    margin-top: 152px;
+}
+
+
+.galeria {
+    display: flex;
+    justify-content: center; /* Centra la galería */
+    align-items: center;
+    gap: 46px;
+    overflow: hidden; /* Evita que se corte contenido */
+}
+
+.galeria-img {
+    width: 382px;
+    height: auto; 
+    max-height: 410px; 
+    margin-left: 15px;
+    object-fit: cover; 
+}
+
+.galeria-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+}
+
+.galeria-img span {
+    font-size: 40px;
+    font-family: "Avenir-heavy";
+    color: var(--color--3);
+    text-align: center;
+}
